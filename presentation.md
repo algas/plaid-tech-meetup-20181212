@@ -6,7 +6,7 @@ layout: true
 
 <!-- This slide will serve as the base layout for all your slides -->
 .bottom-bar[
-  ![Plaid Logo](https://algas.github.io/docker-meetup-tokyo-20181121/resource/plaid_logo_white.png)
+  ![Plaid Logo](resources/plaid_logo_white.png)
 ]
 
 ---
@@ -75,18 +75,12 @@ https://qiita.com/algas/items/f385222580145f01dea2
 
 # ユーザ体感に基づくパフォーマンス計測
 
-## RAIL
+引用: https://developers.google.com/web/fundamentals/performance/rail?hl=ja
 
-RAILの目標はユーザの満足感を向上させることであり、  
-特定の端末でのWebサイトの処理速度を上げることではありません。
-
-- Response: 100 ms 以内にレスポンスを返す
-- Animation: 各フレームの処理は 16 ms 未満
-- Idle: メインスレッドの JS 処理ブロックは 50 ms 以内
-- Load: 1000 ms 以内にコンテンツを表示する
-
-引用元
-https://developers.google.com/web/fundamentals/performance/rail?hl=ja
+.col-8[
+<img src="resources/rail.png" alt="rail" class="two-columns">
+<img src="resources/render-frame.png" alt="render" class="two-columns">
+]  
 
 ---
 
@@ -116,6 +110,8 @@ Google Chrome で Audits を開いて実行するだけ。
 
 ---
 
+class: two-columns
+
 # パフォーマンス計測システム
 
 .col-6[
@@ -127,6 +123,8 @@ Google Chrome で Audits を開いて実行するだけ。
 ]
 
 ---
+
+class: two-columns
 
 # パフォーマンス改善の結果
 
