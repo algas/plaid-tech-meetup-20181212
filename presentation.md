@@ -22,11 +22,8 @@ class: impact
 
 ## 株式会社プレイド
 Engineer / Hunter  
+Performance team  
 山内 雅浩 ([@algas](https://github.com/algas))
-
-- PLAID Advent Calendar 2018  
-「顧客体験を向上させるためのWebサイトのパフォーマンス計測」  
-https://qiita.com/algas/items/f385222580145f01dea2
 
 ---
 
@@ -35,6 +32,12 @@ https://qiita.com/algas/items/f385222580145f01dea2
 1. 顧客体験を向上させるためのパフォーマンスの計測の考え方
 1. 管理画面のパフォーマンス計測を行うために構築したシステムの概要
 1. パフォーマンス計測で見つかった具体的な課題と解決方法
+
+--
+
+PLAID Advent Calendar 2018  
+「顧客体験を向上させるためのWebサイトのパフォーマンス計測」  
+https://qiita.com/algas/items/f385222580145f01dea2
 
 ---
 
@@ -75,7 +78,7 @@ https://qiita.com/algas/items/f385222580145f01dea2
 
 # ユーザ体感に基づくパフォーマンス計測
 
-引用: https://developers.google.com/web/fundamentals/performance/rail?hl=ja
+引用: https://developers.google.com/web/fundamentals/performance/rail
 
 .col-8[
 <img src="resources/rail.png" alt="rail" class="two-columns">
@@ -86,7 +89,10 @@ https://qiita.com/algas/items/f385222580145f01dea2
 
 # Lighthouse
 
-KARTE 管理画面のパフォーマンス測定に使ったツール。
+Webサイトの品質を向上させるための計測ツール
+https://developers.google.com/web/tools/lighthouse
+
+## Lighthouseを選んだ理由
 
 1. 対応ブラウザである Google Chrome にデフォルトで組み込まれている
 1. 前述の RAIL などの考え方を(ある程度)体現している
@@ -120,6 +126,16 @@ class: two-columns
 
 .col-6[
 <img src="resources/lighthouse-notification-slack.png" alt="lighthouse-notification-slack" class="two-columns">
+]
+
+---
+
+class: two-columns
+
+# パフォーマンス計測で見つかった課題例
+
+.col-10[
+<img src="resources/performance-issues.png" alt="performance-issues" class="two-columns">
 ]
 
 ---
